@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <!-- Definitions & Styles -->
+  <defs>
+    <filter id="badgeShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.12" />
+    </filter>
+  </defs>
+
+  <!-- Group for whole badge -->
+  <g filter="url(#badgeShadow)">
+    <!-- Red Outer Circular Ring -->
+    <circle cx="400" cy="370" r="230" fill="#E11D24" stroke="#D0171D" stroke-width="2" />
+
+    <!-- Inner White Circle for Globe -->
+    <circle cx="400" cy="370" r="160" fill="#ffffff" stroke="#E11D24" stroke-width="1" />
+
+    <!-- Globe Grid in Cyan Blue (#0088CC) -->
+    <g id="globe" stroke="#0088CC" fill="none">
+      <!-- Outer globe circle -->
+      <circle cx="400" cy="370" r="150" stroke-width="4" />
+
+      <!-- Horizontal equator -->
+      <line x1="250" y1="370" x2="550" y2="370" stroke-width="3" />
+
+      <!-- Parallels of latitude -->
+      <ellipse cx="400" cy="370" rx="146" ry="46" stroke-width="2.5" />
+      <ellipse cx="400" cy="370" rx="136" ry="92" stroke-width="2.5" />
+      <ellipse cx="400" cy="370" rx="108" ry="128" stroke-width="2.2" />
+
+      <!-- Prime meridian (vertical) -->
+      <line x1="400" y1="220" x2="400" y2="520" stroke-width="3" />
+
+      <!-- Meridians of longitude -->
+      <ellipse cx="400" cy="370" rx="55" ry="150" stroke-width="2.5" />
+      <ellipse cx="400" cy="370" rx="108" ry="150" stroke-width="2.5" />
+    </g>
+
+    <!-- Handshake Graphic in Center -->
+    <g id="handshake" transform="translate(400, 370)">
+      <!-- Left dark suit sleeve -->
+      <polygon points="-125,18 -68,-32 -48,-12 -105,38" fill="#18181b" />
+      <!-- Left white cuff -->
+      <polygon points="-69,-33 -60,-41 -40,-21 -49,-13" fill="#ffffff" stroke="#18181b" stroke-width="2.5" />
+
+      <!-- Right dark suit sleeve -->
+      <polygon points="125,18 68,-32 48,-12 105,38" fill="#18181b" />
+      <!-- Right white cuff -->
+      <polygon points="69,-33 60,-41 40,-21 49,-13" fill="#ffffff" stroke="#18181b" stroke-width="2.5" />
+
+      <!-- Clasped hands base silhouette -->
+      <path d="M -48,-14 C -35,-28 -12,-32 10,-22 C 28,-14 36,4 32,22 C 26,38 8,44 -16,40 C -36,36 -48,18 -48,-14 Z" fill="#ffffff" stroke="#18181b" stroke-width="4.5" stroke-linejoin="round" />
+
+      <!-- Right hand dark clasp -->
+      <path d="M 48,-14 C 35,-28 12,-32 -10,-22 C -28,-14 -36,4 -32,22 C -26,38 -8,44 16,40 C 36,36 48,18 48,-14 Z" fill="#18181b" stroke="#18181b" stroke-width="4" stroke-linejoin="round" />
+
+      <!-- Interlocked fingers detail -->
+      <!-- White hand fingers wrapped over dark hand -->
+      <path d="M -18,-14 C -6,-22 14,-22 24,-12 C 30,-5 28,3 20,8 C 12,12 -8,12 -18,-2 Z" fill="#ffffff" stroke="#18181b" stroke-width="3" />
+      <path d="M -20,-2 C -8,-10 12,-10 20,0 C 26,7 24,14 16,19 C 8,23 -9,23 -20,11 Z" fill="#ffffff" stroke="#18181b" stroke-width="3" />
+      <path d="M -24,10 C -12,3 8,3 15,13 C 21,20 19,27 11,32 C 3,35 -14,35 -24,24 Z" fill="#ffffff" stroke="#18181b" stroke-width="3" />
+
+      <!-- Top thumb clasp detail -->
+      <path d="M -38,-10 C -24,-34 2,-32 8,-18 C 12,-9 6,1 -8,8 C -22,12 -34,7 -38,-10 Z" fill="#ffffff" stroke="#18181b" stroke-width="3.5" />
+      <path d="M 38,-10 C 24,-34 -2,-32 -8,-18 C -12,-9 -6,1 8,8 C 22,12 34,7 38,-10 Z" fill="#18181b" stroke="#ffffff" stroke-width="2" />
+    </g>
+
+    <!-- Top Arched Letters: FUTURE CARE GLOBAL (Black letters matching official brand badge) -->
+    <text x="238.3" y="261.0" transform="rotate(-56.0, 238.3, 261.0)" font-family="'Outfit', 'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="34" fill="#18181b" text-anchor="middle" dominant-baseline="central">F</text>
+<text x="251.9" y="243.1" transform="rotate(-49.4, 251.9, 243.1)" font-family="'Outfit', 'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="34" fill="#18181b" text-anchor="middle" dominant-baseline="central">U</text>
+<text x="267.5" y="227.0" transform="rotate(-42.8, 267.5, 227.0)" font-family="'Outfit', 'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="34" fill="#18181b" text-anchor="middle" dominant-baseline="central">T</text>
+<text x="284.7" y="212.7" transform="rotate(-36.2, 284.7, 212.7)" font-family="'Outfit', 'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="34" fill="#18181b" text-anchor="middle" dominant-baseline="central">U</text>
+<text x="303.5" y="200.5" transform="rotate(-29.6, 303.5, 200.5)" font-family="'Outfit', 'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="34" fill="#18181b" text-anchor="middle" dominant-baseline="central">R</text>
+<text x="323.6" y="190.6" transform="rotate(-23.1, 323.6, 190.6)" font-family="'Outfit', 'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="34" fill="#18181b" text-anchor="middle" dominant-baseline="central">E</text>
+<text x="366.5" y="177.9" transform="rotate(-9.9, 366.5, 177.9)" font-family="'Outfit', 'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="34" fill="#18181b" text-anchor="middle" dominant-baseline="central">C</text>
+<text x="388.8" y="175.3" transform="rotate(-3.3, 388.8, 175.3)" font-family="'Outfit', 'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="34" fill="#18181b" text-anchor="middle" dominant-baseline="central">A</text>
+<text x="411.2" y="175.3" transform="rotate(3.3, 411.2, 175.3)" font-family="'Outfit', 'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="34" fill="#18181b" text-anchor="middle" dominant-baseline="central">R</text>
+<text x="433.5" y="177.9" transform="rotate(9.9, 433.5, 177.9)" font-family="'Outfit', 'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="34" fill="#18181b" text-anchor="middle" dominant-baseline="central">E</text>
+<text x="476.4" y="190.6" transform="rotate(23.1, 476.4, 190.6)" font-family="'Outfit', 'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="34" fill="#18181b" text-anchor="middle" dominant-baseline="central">G</text>
+<text x="496.5" y="200.5" transform="rotate(29.6, 496.5, 200.5)" font-family="'Outfit', 'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="34" fill="#18181b" text-anchor="middle" dominant-baseline="central">L</text>
+<text x="515.3" y="212.7" transform="rotate(36.2, 515.3, 212.7)" font-family="'Outfit', 'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="34" fill="#18181b" text-anchor="middle" dominant-baseline="central">O</text>
+<text x="532.5" y="227.0" transform="rotate(42.8, 532.5, 227.0)" font-family="'Outfit', 'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="34" fill="#18181b" text-anchor="middle" dominant-baseline="central">B</text>
+<text x="548.1" y="243.1" transform="rotate(49.4, 548.1, 243.1)" font-family="'Outfit', 'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="34" fill="#18181b" text-anchor="middle" dominant-baseline="central">A</text>
+<text x="561.7" y="261.0" transform="rotate(56.0, 561.7, 261.0)" font-family="'Outfit', 'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="34" fill="#18181b" text-anchor="middle" dominant-baseline="central">L</text>
+
+
+    <!-- Flanking Black Stars -->
+    <polygon points="212.6,409.7 216.3,418.7 225.9,419.4 218.5,425.7 220.8,435.1 212.6,430.0 204.3,435.1 206.6,425.7 199.2,419.4 208.9,418.7" fill="#18181b" stroke="#18181b" stroke-width="1" />
+    <polygon points="587.4,409.7 591.1,418.7 600.8,419.4 593.4,425.7 595.7,435.1 587.4,430.0 579.2,435.1 581.5,425.7 574.1,419.4 583.7,418.7" fill="#18181b" stroke="#18181b" stroke-width="1" />
+
+    <!-- Bottom Arched Letters: CREATING & CONNECTING -->
+    <text x="246.3" y="490.1" transform="rotate(52.0, 246.3, 490.1)" font-family="'Outfit', 'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="22" fill="#ffffff" text-anchor="middle" dominant-baseline="central">C</text>
+<text x="257.9" y="503.5" transform="rotate(46.8, 257.9, 503.5)" font-family="'Outfit', 'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="22" fill="#ffffff" text-anchor="middle" dominant-baseline="central">R</text>
+<text x="270.5" y="515.8" transform="rotate(41.6, 270.5, 515.8)" font-family="'Outfit', 'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="22" fill="#ffffff" text-anchor="middle" dominant-baseline="central">E</text>
+<text x="284.3" y="527.0" transform="rotate(36.4, 284.3, 527.0)" font-family="'Outfit', 'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="22" fill="#ffffff" text-anchor="middle" dominant-baseline="central">A</text>
+<text x="299.0" y="536.8" transform="rotate(31.2, 299.0, 536.8)" font-family="'Outfit', 'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="22" fill="#ffffff" text-anchor="middle" dominant-baseline="central">T</text>
+<text x="314.5" y="545.3" transform="rotate(26.0, 314.5, 545.3)" font-family="'Outfit', 'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="22" fill="#ffffff" text-anchor="middle" dominant-baseline="central">I</text>
+<text x="330.8" y="552.3" transform="rotate(20.8, 330.8, 552.3)" font-family="'Outfit', 'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="22" fill="#ffffff" text-anchor="middle" dominant-baseline="central">N</text>
+<text x="347.6" y="557.8" transform="rotate(15.6, 347.6, 557.8)" font-family="'Outfit', 'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="22" fill="#ffffff" text-anchor="middle" dominant-baseline="central">G</text>
+<text x="382.3" y="564.2" transform="rotate(5.2, 382.3, 564.2)" font-family="'Outfit', 'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="22" fill="#ffffff" text-anchor="middle" dominant-baseline="central">&amp;</text>
+<text x="417.7" y="564.2" transform="rotate(-5.2, 417.7, 564.2)" font-family="'Outfit', 'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="22" fill="#ffffff" text-anchor="middle" dominant-baseline="central">C</text>
+<text x="435.2" y="561.8" transform="rotate(-10.4, 435.2, 561.8)" font-family="'Outfit', 'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="22" fill="#ffffff" text-anchor="middle" dominant-baseline="central">O</text>
+<text x="452.4" y="557.8" transform="rotate(-15.6, 452.4, 557.8)" font-family="'Outfit', 'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="22" fill="#ffffff" text-anchor="middle" dominant-baseline="central">N</text>
+<text x="469.2" y="552.3" transform="rotate(-20.8, 469.2, 552.3)" font-family="'Outfit', 'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="22" fill="#ffffff" text-anchor="middle" dominant-baseline="central">N</text>
+<text x="485.5" y="545.3" transform="rotate(-26.0, 485.5, 545.3)" font-family="'Outfit', 'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="22" fill="#ffffff" text-anchor="middle" dominant-baseline="central">E</text>
+<text x="501.0" y="536.8" transform="rotate(-31.2, 501.0, 536.8)" font-family="'Outfit', 'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="22" fill="#ffffff" text-anchor="middle" dominant-baseline="central">C</text>
+<text x="515.7" y="527.0" transform="rotate(-36.4, 515.7, 527.0)" font-family="'Outfit', 'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="22" fill="#ffffff" text-anchor="middle" dominant-baseline="central">T</text>
+<text x="529.5" y="515.8" transform="rotate(-41.6, 529.5, 515.8)" font-family="'Outfit', 'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="22" fill="#ffffff" text-anchor="middle" dominant-baseline="central">I</text>
+<text x="542.1" y="503.5" transform="rotate(-46.8, 542.1, 503.5)" font-family="'Outfit', 'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="22" fill="#ffffff" text-anchor="middle" dominant-baseline="central">N</text>
+<text x="553.7" y="490.1" transform="rotate(-52.0, 553.7, 490.1)" font-family="'Outfit', 'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="22" fill="#ffffff" text-anchor="middle" dominant-baseline="central">G</text>
+
+
+    <!-- Blue Open Book Wings (#0088CC) -->
+    <g id="bookWings" fill="#0088CC" stroke="#0088CC">
+      <!-- Left Wing - Upper page arc -->
+      <path d="M 388 624 C 300 594 170 540 68 502 C 142 568 265 618 388 638 Z" />
+      <!-- Left Wing - Lower page arc -->
+      <path d="M 388 658 C 285 648 160 634 70 644 C 162 666 280 672 388 664 Z" />
+
+      <!-- Right Wing - Upper page arc -->
+      <path d="M 412 624 C 500 594 630 540 732 502 C 658 568 535 618 412 638 Z" />
+      <!-- Right Wing - Lower page arc -->
+      <path d="M 412 658 C 515 648 640 634 730 644 C 638 666 520 672 412 664 Z" />
+    </g>
+  </g>
+</svg>
